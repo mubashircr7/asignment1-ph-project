@@ -23,6 +23,10 @@ header{
     padding: 16px 120px;
     margin: 0 auto;
 }
+.logo img{
+    cursor: pointer;
+    padding: 10px 0;
+}
 .menu{
     list-style-type: none;
     display: flex;
@@ -273,3 +277,48 @@ button {
 }
 
 
+
+
+/* footer section */
+footer{
+    background-color: #001931;
+    max-width: 1600px;
+    height: 348px;
+    margin: 0 auto;
+    color: #f9f8f4;
+}
+.footer-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 120px;
+    margin-bottom: 50px;
+}
+.footer-social {
+    display: block;
+    font-size: 18px;
+    text-align: right;
+    margin: 0 auto;
+}
+.icons i {
+    font-size: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+    padding: 20px;
+    margin: 0 auto;
+    font-size: 2rem;
+
+}
+.footer-text {
+    padding: 30px 120px;
+}
+.footer-text hr {
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 25px;
+}
+.footer-text p {
+    text-align: center; 
+    font-size: 14px;
+    color: #4b5563;
+}

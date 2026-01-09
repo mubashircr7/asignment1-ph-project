@@ -12,7 +12,7 @@
 
 
 header{
-    max-width: 1707px;
+    max-width: 1600px;
     margin: 0 auto;
     background-color: #ffffff;
 }
@@ -57,11 +57,10 @@ header{
 
 
 
-
 /* banner desgin */
 #banner {
     width: 100%;
-    max-width: 1707px;
+    max-width: 1600px;
     height: 674px;
     margin: 0 auto;
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
@@ -80,7 +79,6 @@ header{
 }
 
 .dot-text{
-    border: 1px solid white;
     padding: 10px;
     border-radius: 20px;
     font-size: 16px;
@@ -282,7 +280,7 @@ button {
 /* footer section */
 footer{
     background-color: #001931;
-    max-width: 1707px;
+    max-width: 1600px;
     height: 348px;
     margin: 0 auto;
     color: #f9f8f4;
@@ -292,7 +290,7 @@ footer{
     justify-content: space-between;
     align-items: center;
     padding: 30px 120px;
-    margin-bottom: 50px;
+    margin-bottom: 50px auto;
 }
 .footer-social {
     display: block;
@@ -307,7 +305,6 @@ footer{
     padding: 20px;
     margin: 0 auto;
     font-size: 2rem;
-
 }
 .footer-text {
     padding: 30px 120px;

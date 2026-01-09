@@ -48,3 +48,78 @@ header{
     color: #ffffff;
     font-weight: bold;
 }
+
+
+
+
+
+/* banner desgin */
+#banner {
+    width: 100%;
+    max-width: 1600px;
+    height: 674px;
+    margin: 0 auto;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url(./image/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.banner-container {
+     max-width: 1300px;
+}
+
+.dot-text{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    display: inline-block;
+    color: #5ba493;
+    background-color: #ffffff;
+}
+.dot-style{
+   background: radial-gradient(black,white,blue,green);
+   border-radius: 50%;
+}
+h2 { 
+    font-size: 48px;
+    margin: 5px 0;
+    line-height: 75px;
+}
+.green-text{
+     color: #4ade80;
+}
+.small.text {
+    font-size: 15px; 
+    text-align: center;
+    color: rgb(205, 209, 209);
+    padding: 10px;
+ }
+.btn-group {
+    display: flex;
+    gap: 15px; 
+    margin-top: 20px;
+}
+button {
+    padding: 15px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+}
+.btn-green { 
+    background: #0e7541;
+     color: white;
+}
+.btn-smoth{ 
+    background-color: rgba(9, 9, 9, 0.1); 
+    color: white; 
+    border: 1px solid white;
+}
+
